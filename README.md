@@ -1,4 +1,4 @@
-# internship_project
+# Internship_Project
 
 Customer Support Sentiment Analysis Project
 
@@ -9,7 +9,10 @@ Build a tool that can analyze customer support voice recordings (from service ca
 - Performs emotion classification
 - Visualizes the results in an interactive Tableau dashboard
 
-This project includes transcribed/analyzed sample files for three recordings (four customer support calls), along with instructions on how to create your own files for analysis.   
+This project includes transcribed/analyzed sample files for three recordings (four customer support calls), along with instructions on how to create your own files for analysis.  
+
+Project Structure 
+MP3 audio recordings and their respective transcripts and classifications are uploaded for three recordings. 
 
 Setup Instructions
 Python Environment
