@@ -9,7 +9,7 @@ Build a tool that can analyze customer support voice recordings (from service ca
 - Performs emotion classification
 - Visualizes the results in an interactive Tableau dashboard
 
-This project includes transcribed/analyzed sample files for three recordings (four customer support calls), along with instructions on how to create your own files for analysis.  
+This project includes transcribed/analyzed sample files for three recordings (four customer support calls), along with instructions on how to create your files for analysis.  
 
 MP3 audio recordings and their respective transcripts and classifications are uploaded for three recordings. Python files to generate the former are also included for each recording. 
 
@@ -32,12 +32,14 @@ AssemblyAI API Setup
 
 API_KEY = "your_api_key_here"
 
+Replace path for MP3 file accordingly
+
 Run all cells in the notebook to:
 - Upload the .mp3 file
-- Transcribe it using AssemblyAI
+- Transcribe and classify sentiment using AssemblyAI
 - Save the transcript to a DataFrame and Excel file
 
-Emotion & Sentiment Classification
+Emotion Classification
 1. Copy transcript sentences into a new Excel file
 2. Use an AI tool like ChatGPT or Claude
 3. Ask:
@@ -45,7 +47,6 @@ Emotion & Sentiment Classification
 4. Paste the results into Transcript1_Emotion.xlsx accordingly
 
 You can replicate this for other transcripts too.
-
 
 Tableau Dashboard
 Files Needed:
