@@ -11,8 +11,7 @@ Build a tool that can analyze customer support voice recordings (from service ca
 
 This project includes transcribed/analyzed sample files for three recordings (four customer support calls), along with instructions on how to create your own files for analysis.  
 
-Project Structure 
-MP3 audio recordings and their respective transcripts and classifications are uploaded for three recordings. 
+MP3 audio recordings and their respective transcripts and classifications are uploaded for three recordings. Python files to generate the former are also included for each recording. 
 
 Setup Instructions
 Python Environment
