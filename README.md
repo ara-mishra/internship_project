@@ -1,4 +1,4 @@
-# Internship_Project
+<img width="468" height="25" alt="image" src="https://github.com/user-attachments/assets/31588162-41f6-4c1e-a3d5-08d7ec8f1355" /><img width="468" height="153" alt="image" src="https://github.com/user-attachments/assets/db96c18d-e9e0-4518-9fbc-1587b84fab23" /><img width="468" height="84" alt="image" src="https://github.com/user-attachments/assets/2e684e33-f4ff-46f6-bcf0-2375be8591f5" /># Internship_Project
 
 Customer Support Sentiment Analysis Project
 
@@ -16,6 +16,7 @@ MP3 audio recordings and their respective transcripts and classifications are up
 Setup Instructions
 Python Environment
 Required Packages:
+- Python 3.10
 - assemblyai – for transcribing audio using the AssemblyAI API
 - os – standard library for file and path handling
 - pandas – for managing and exporting transcript data to Excel
@@ -29,39 +30,52 @@ AssemblyAI API Setup
 - Sign up at https://www.assemblyai.com/
 - Get your API key from the dashboard
 - In the file, replace the API_KEY placeholder with your key:
+- 
+How to Run the Code
+1. Open the relevant `.ipynb` file for the call recording.
+2. Replace the placeholder line with your actual AssemblyAI API key:
 
-API_KEY = "your_api_key_here"
+   API_KEY = "your_api_key_here"
 
-Replace path for MP3 file accordingly
+3. Update the file path to your `.mp3` audio file.
+4. Run all notebook cells to:
+   - Upload and transcribe the audio
+   - Perform sentiment analysis
+   - Export results to Excel
 
-Run all cells in the notebook to:
-- Upload the .mp3 file
-- Transcribe and classify sentiment using AssemblyAI
-- Save the transcript to a DataFrame and Excel file
+Emotion Classification (Manual Step)
+1. Open the transcript Excel file.
+2. Add a column titled `Emotion`.
+3. Use an AI tool (e.g., ChatGPT or Claude) and prompt:
 
-Emotion Classification
-1. Copy transcript sentences into a new Excel file
-2. Use an AI tool like ChatGPT or Claude
-3. Ask:
-   “Classify the following lines into emotions such as happy, frustrated, angry, neutral, etc.”
-4. Paste the results into Transcript1_Emotion.xlsx accordingly
+   Classify the following lines into emotions such as happy, rude, polite, neutral, etc.
 
-You can replicate this for other transcripts too.
+4. Paste the results into the Excel sheet.
+5. Add a `Call ID` column to track which transcript the lines belong to.
+
+Combine sheets of all recordings in a single excel file, Combined_Data
 
 Tableau Dashboard
-Files Needed:
-- transcript1_sentiment.xlsx or accordingly 
-- Transcript1_Emotion.xlsx or accordingly
-- Internship_final.twbx
 
 Steps:
 1. Open Tableau Public or Tableau Desktop
 2. Load the .twbx file
-3. Connect it to your updated Excel files and create a relationship between “text” in both files
+3. Connect it to your updated Excel file, Combined_Data 
 4. Review or customize:
-- Overall sentiment distribution
-- Emotion timeline
-- Keywords by sentiment/emotion
+   - Sentiment over time
+   - Overall sentiment distribution
+   - Emotion breakdown
+   - Keyword/emotion insights
+   - Filter by `Call ID` to view individual calls
+
+
+
+
+
+
+
+
+
 
 
 
