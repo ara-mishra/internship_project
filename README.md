@@ -1,4 +1,3 @@
-<img width="468" height="25" alt="image" src="https://github.com/user-attachments/assets/31588162-41f6-4c1e-a3d5-08d7ec8f1355" /><img width="468" height="153" alt="image" src="https://github.com/user-attachments/assets/db96c18d-e9e0-4518-9fbc-1587b84fab23" /><img width="468" height="84" alt="image" src="https://github.com/user-attachments/assets/2e684e33-f4ff-46f6-bcf0-2375be8591f5" /># Internship_Project
 
 Customer Support Sentiment Analysis Project
 
