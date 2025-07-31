@@ -50,7 +50,7 @@ Emotion Classification (Manual Step)
 4. Paste the results into the Excel sheet.
 5. Add a `Call ID` column to track which transcript the lines belong to.
 
-Combine sheets of all recordings in a single excel file, Combined_Data
+Combine data of all recordings in a single Excel file, Combined_Data
 
 Tableau Dashboard
 
