@@ -26,8 +26,8 @@ pip install assemblyai pandas nltk
 AssemblyAI API Setup
 - Sign up at https://www.assemblyai.com/
 - Get your API key from the dashboard
-- In the file, replace the API_KEY placeholder with your key:
-- 
+- In the file, replace the API_KEY placeholder with your key
+  
 How to Run the Code
 1. Open the relevant `.ipynb` file for the call recording.
 2. Replace the placeholder line with your actual AssemblyAI API key:
