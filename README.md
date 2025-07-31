@@ -1,7 +1,7 @@
 
 Customer Support Sentiment Analysis Project
 
-Problem Statement
+Problem Statement:
 Build a tool that can analyze customer support voice recordings (from service calls) and extract sentiment and emotion insights. The pipeline:
 - Transcribes the voice into text using AssemblyAI
 - Processes and classifies the transcript into positive, negative, and neutral sentiments
